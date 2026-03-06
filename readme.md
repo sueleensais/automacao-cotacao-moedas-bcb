@@ -109,7 +109,9 @@ python cotacao-moedas.py
 ```
 ## Automação
 - Configure o Agendador de Tarefas do Windows para rodar o script diariamente.
-- Exemplo de configuração:
+
+*Exemplo de configuração:*
+
 - Programa/script: caminho completo do Python (ex.: C:\Users\sueleen\anaconda3\python.exe)
 - Argumentos: "C:\Users\sueleen\OneDrive\Documents\Projetos\cotacao-moedas\cotacao-moedas.py"
 - Iniciar em: C:\Users\sueleen\OneDrive\Documents\Projetos\cotacao-moedas
@@ -119,7 +121,8 @@ python cotacao-moedas.py
 - Exemplo de saída:
 
 ```python
-Moeda | Nome        | Data                | Compra   | Venda
-USD   | Dólar EUA   | 2026-03-05 13:00:00 | 5.12     | 5.13
-EUR   | Euro        | 2026-03-05 13:00:00 | 5.55     | 5.57
+Moeda | Nome                     | Data                 | Compra   | Venda
+USD   |	Dólar dos Estados Unidos | 2026-03-05 13:03:29	| 5,2441   |   5,2447
+EUR   | Euro                     | 2026-03-05 13:00:00  | 5.55     | 5.57
+
 ...
