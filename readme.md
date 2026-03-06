@@ -96,7 +96,7 @@ print(f"Foram coletadas {num_registros} cotações de {num_moedas} moedas.")
 print(f"Período: de {periodo_inicio} até {periodo_fim}")
 print("Moedas disponíveis:", df["Moeda"].unique())
 ```
-## Como executar
+# Como executar
 1. Clone este repositório
 2. Instale as dependências: 
 ```python
@@ -116,13 +116,24 @@ python cotacao-moedas.py
 - Argumentos: "C:\Users\sueleen\OneDrive\Documents\Projetos\cotacao-moedas\cotacao-moedas.py"
 - Iniciar em: C:\Users\sueleen\OneDrive\Documents\Projetos\cotacao-moedas
 
-## Resultados
-- Relatório em Excel com todas as moedas disponíveis e suas cotações de compra e venda nos últimos 30 dias.
-- Exemplo de saída:
+# Resultados
+Relatório em Excel com todas as moedas disponíveis e suas cotações de compra e venda nos últimos 30 dias.
+Exemplo de Visualização:
+
+## Cotações Oficiais - Dia (06/03/2026)
+Dados extraídos do processamento mais recente da automação.
 
 ```python
-Moeda | Nome                     | Data                 | Compra   | Venda
-USD   |	Dólar dos Estados Unidos | 2026-03-05 13:03:29	| 5,2441   |   5,2447
-EUR   | Euro                     | 2026-03-05 13:00:00  | 5.55     | 5.57
 
-...
+| Moeda | Nome da Moeda | Data/Hora da Consulta | Compra (R$) | Venda (R$) |
+| :--- | :--- | :--- | :---: | :---: |
+| **USD** | Dólar dos Estados Unidos | 06/03/2026 13:06 | 5,5069 | 5,5075 |
+| **EUR** | Euro | 06/03/2026 13:09 | 6,0742 | 6,0758 |
+| **GBP** | Libra Esterlina | 06/03/2026 13:12 | 7,1245 | 7,1268 |
+| **AUD** | Dólar Australiano | 06/03/2026 13:10 | 3,6120 | 3,6145 |
+| **CAD** | Dólar Canadense | 06/03/2026 13:11 | 3,9244 | 3,9259 |
+| **CHF** | Franco Suíço | 06/03/2026 13:09 | 6,1029 | 6,1055 |
+| **JPY** | Iene Japonês | 06/03/2026 13:10 | 0,0368 | 0,0370 |
+```
+
+
