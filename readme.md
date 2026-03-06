@@ -105,9 +105,10 @@ pip install pandas requests
 3. Execute o script manualmente:
 ```python
 python cotacao-moedas.py
-4. O relatório será gerado na pasta data/.
 ```
-## Automação
+4. O relatório será gerado na pasta data/.
+
+# Automação
 - Configure o Agendador de Tarefas do Windows para rodar o script diariamente.
 
 *Exemplo de configuração:*
@@ -116,12 +117,8 @@ python cotacao-moedas.py
 - Argumentos: "C:\Users\sueleen\OneDrive\Documents\Projetos\cotacao-moedas\cotacao-moedas.py"
 - Iniciar em: C:\Users\sueleen\OneDrive\Documents\Projetos\cotacao-moedas
 
-# Resultados
-Relatório em Excel com todas as moedas disponíveis e suas cotações de compra e venda nos últimos 30 dias.
-Exemplo de Visualização:
-
-## Cotações Oficiais - Dia (06/03/2026)
-Dados extraídos do processamento mais recente da automação.
+# Resultado
+A automação gera um arquivo estruturado (.csv ou .xlsx) contendo o histórico das cotações. Abaixo, um exemplo da extração realizada em 06/03/2026:
 
 ```python
 
@@ -135,5 +132,6 @@ Dados extraídos do processamento mais recente da automação.
 | **CHF** | Franco Suíço | 06/03/2026 13:09 | 6,1029 | 6,1055 |
 | **JPY** | Iene Japonês | 06/03/2026 13:10 | 0,0368 | 0,0370 |
 ```
+
 
 
