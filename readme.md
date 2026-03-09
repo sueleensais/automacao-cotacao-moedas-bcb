@@ -1,22 +1,15 @@
 # **Automação de Cotações de Moedas – Banco Central do Brasil**
 
-Este projeto em Python consome a API oficial do Banco Central (PTAX) para coletar cotações de moedas estrangeiras. Os dados são tratados com Pandas e exportados para Excel, permitindo análises rápidas e organizadas. A execução é automatizada diariamente via Agendador de Tarefas do Windows, garantindo relatórios atualizados sem intervenção manual.
+Este projeto em Python consome a API oficial do Banco Central (PTAX) para coletar cotações de moedas estrangeiras. Os dados são tratados com Pandas e exportados para Excel, permitindo análises rápidas e organizadas. A execução é automatizada diariamente via Agendador de Tarefas do Windows, garantindo relatórios atualizados sem intervenção manual. Foram utilizados Python (pandas, requests) e Agendador de Tarefas (widows).
 
-## Funcionalidades
+# Funcionalidades
 
 - Consulta automática à API de moedas disponíveis.
 - Coleta das cotações dos últimos 30 dias.
 - Exportação dos dados para Excel (cotacoes_30_dias.xlsx).
 - Automação da execução com o Agendador de Tarefas.
 
-## Tecnologias utilizadas
-- Python 3.x
-- Pandas
-- Requests
-- Datetime
-- Agendador de Tarefas (Windows)
-
-## Script
+# Script
 ```python
 # importando bibliotecas
 import pandas as pd
@@ -132,6 +125,7 @@ A automação gera um arquivo estruturado (.csv ou .xlsx) contendo o histórico 
 | **CHF** | Franco Suíço | 06/03/2026 13:09 | 6,1029 | 6,1055 |
 | **JPY** | Iene Japonês | 06/03/2026 13:10 | 0,0368 | 0,0370 |
 ```
+
 
 
 
